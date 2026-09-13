@@ -16,6 +16,7 @@ network:
   allowed:
     - github.blog
     - github.com
+    - awesome-copilot.github.com
 safe-outputs:
   create-pull-request:
     max: 1
@@ -29,6 +30,9 @@ Use the web-fetch tool to read both of these public sources:
 
 - https://github.blog/latest/
 - https://github.blog/changelog/
+- https://awesome-copilot.github.com/workflows/
+
+Also use the web-fetch tool to read the Awesome Copilot workflows source at https://awesome-copilot.github.com/workflows/.
 
 Use GitHub repository API tools to read repository guidance or reference files when needed. Do not use terminal, CLI, or sandboxed commands for those repository reads.
 
